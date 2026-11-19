@@ -31,3 +31,29 @@ The main menu has buttons for starting a new game, loading a saved game, the lea
 - **Save and load**: pressing End writes `level x y health score` to `saved.txt`. Load Game reads that file and resumes from it.
 - **Leaderboard**: `leaderboard.txt` holds one `Name score` line per player, best first. A player keeps only their best score, and the leaderboard screen shows the top five.
 - **Names**: the name prompt asks for a surname. Use a single word, because the leaderboard reads each line as one name followed by one score.
+
+## Build and run
+
+Run all commands from the repository root. The game loads its images, fonts and sounds by relative path (`assets/...`).
+
+### Linux
+
+Install the SDL2, SDL2_mixer, FreeGLUT, FreeType and OpenGL development packages. On Debian or Ubuntu that is roughly:
+
+```bash
+sudo apt install build-essential libsdl2-dev libsdl2-mixer-dev freeglut3-dev libfreetype-dev libglu1-mesa-dev
+```
+
+Then build and run:
+
+```bash
+chmod +x build.sh runner.sh
+./runner.sh          # builds iMain.cpp into bin/opengl and starts it
+./build.sh           # build only
+```
+
+Both scripts take an optional source file as an argument and default to `iMain.cpp`.
+
+### Windows
+
+`build.bat` and `runner.bat` call a MinGW compiler from a folder named `MINGW` next to them. That folder is git-ignored, so it is not in this repository: add a MinGW toolchain there first. The SDL2, FreeGLUT and FreeType DLLs the game needs are already in `bin/`. An `iGraphics.cbp` Code::Blocks project is also included.
