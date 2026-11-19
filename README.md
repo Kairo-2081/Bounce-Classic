@@ -2,6 +2,16 @@
 
 A side-scrolling platform game written in C++. You guide a bouncing ball through three levels of blocks, spikes and patrolling spiders, collect a score as you go, and compete for a place on the leaderboard. It is built on the iGraphics library (OpenGL, GLUT and SDL2), and the game window is titled "Bounce Classico".
 
+## Contents
+
+- [Gameplay](#gameplay)
+- [Controls](#controls)
+- [Menus, saving and the leaderboard](#menus-saving-and-the-leaderboard)
+- [Build and run](#build-and-run)
+- [Project layout](#project-layout)
+- [Notes](#notes)
+- [Credits](#credits)
+
 ## Gameplay
 
 - The ball rolls across a scrolling level. Move right to progress; jump to get onto or under blocks.
