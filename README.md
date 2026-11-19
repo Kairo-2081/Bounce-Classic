@@ -11,3 +11,15 @@ A side-scrolling platform game written in C++. You guide a bouncing ball through
 - Reaching the end of a level moves you to the next one with health refilled. Your score carries over.
 - Finish level 3 to see the "Congratulations" screen with your final score.
 - After a game over or a finish, you type a name and your score goes to the leaderboard.
+
+## Controls
+
+| Input | Action |
+| --- | --- |
+| Left / Right arrow | Move left / right |
+| Up arrow | Jump |
+| Mouse | Click the main menu buttons; click the speaker icon during play to switch sound on or off |
+| Home | Return to the main menu |
+| End | Save your progress to `saved.txt` and quit |
+| C | Continue from the score screen, or leave the leaderboard and game-over screens |
+| Letters, space, Backspace, Enter | Type, edit and submit your name |
