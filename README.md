@@ -82,3 +82,7 @@ Most of the roughly 2,300 tracked files belong to the bundled iGraphics template
 - Load Game opens `saved.txt` without checking that it exists, so keep that file in the project folder.
 - Names are stored as a single word. A name with a space is not read back correctly from `leaderboard.txt`.
 - The window is fixed at 1280 x 720.
+
+## Credits
+
+The graphics, input and sound layer is the iGraphics library (v0.6.0 in `iGraphics.h`) by Mahir Labib Dihan, see [github.com/mahirlabibdihan](https://github.com/mahirlabibdihan). Check the upstream project for the library's terms; this repository has no license file of its own.
