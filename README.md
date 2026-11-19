@@ -23,3 +23,11 @@ A side-scrolling platform game written in C++. You guide a bouncing ball through
 | End | Save your progress to `saved.txt` and quit |
 | C | Continue from the score screen, or leave the leaderboard and game-over screens |
 | Letters, space, Backspace, Enter | Type, edit and submit your name |
+
+## Menus, saving and the leaderboard
+
+The main menu has buttons for starting a new game, loading a saved game, the leaderboard and help, plus an exit button.
+
+- **Save and load**: pressing End writes `level x y health score` to `saved.txt`. Load Game reads that file and resumes from it.
+- **Leaderboard**: `leaderboard.txt` holds one `Name score` line per player, best first. A player keeps only their best score, and the leaderboard screen shows the top five.
+- **Names**: the name prompt asks for a surname. Use a single word, because the leaderboard reads each line as one name followed by one score.
