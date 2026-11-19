@@ -57,3 +57,22 @@ Both scripts take an optional source file as an argument and default to `iMain.c
 ### Windows
 
 `build.bat` and `runner.bat` call a MinGW compiler from a folder named `MINGW` next to them. That folder is git-ignored, so it is not in this repository: add a MinGW toolchain there first. The SDL2, FreeGLUT and FreeType DLLs the game needs are already in `bin/`. An `iGraphics.cbp` Code::Blocks project is also included.
+
+## Project layout
+
+```text
+.
+├── iMain.cpp            The game: setup, drawing, input, collisions, saving and the leaderboard
+├── assets/              fonts/, images/ (bg, levels, sprites) and sounds/
+├── leaderboard.txt      Top scores, one "Name score" per line
+├── saved.txt            Saved game: level x y health score
+├── iGraphics.h, iSound.h, iFont.h   iGraphics library headers
+├── build.sh, runner.sh  Linux build and run scripts
+├── build.bat, runner.bat, release.bat   Windows scripts
+├── iGraphics.cbp        Code::Blocks project
+├── bin/                 Windows runtime DLLs (and build output)
+├── OpenGL/, include/, lib/, libexec/, mingw32/, share/, var/   Bundled headers, libraries and toolchain files from the iGraphics template
+└── examples/, tests/    iGraphics demo programs and test scripts
+```
+
+Most of the roughly 2,300 tracked files belong to the bundled iGraphics template and toolchain. The game itself is `iMain.cpp` plus `assets/`.
