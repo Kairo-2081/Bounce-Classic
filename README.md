@@ -76,3 +76,9 @@ Both scripts take an optional source file as an argument and default to `iMain.c
 ```
 
 Most of the roughly 2,300 tracked files belong to the bundled iGraphics template and toolchain. The game itself is `iMain.cpp` plus `assets/`.
+
+## Notes
+
+- Load Game opens `saved.txt` without checking that it exists, so keep that file in the project folder.
+- Names are stored as a single word. A name with a space is not read back correctly from `leaderboard.txt`.
+- The window is fixed at 1280 x 720.
