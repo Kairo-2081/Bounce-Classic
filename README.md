@@ -131,6 +131,22 @@ stateDiagram-v2
     Playing --> [*]: End key, saves and quits
 ```
 
+### Level progression
+
+```mermaid
+flowchart LR
+    S([New game]) --> L1[Level 1<br/>health 100]
+    L1 -- reach the end --> L2[Level 2<br/>health refilled]
+    L2 -- reach the end --> L3[Level 3<br/>health refilled]
+    L3 -- reach the end --> W[Congratulations<br/>final score]
+    W -- C --> N[Enter your name]
+    L1 -- health 0 --> N
+    L2 -- health 0 --> N
+    L3 -- health 0 --> N
+    N -- Enter --> LB[(leaderboard.txt)]
+    LB --> H([Main menu])
+```
+
 ## Controls
 
 | Input | Action |
