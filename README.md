@@ -164,6 +164,25 @@ flowchart TD
     I -- no --> K[Next frame]
 ```
 
+### Saving and the leaderboard
+
+```mermaid
+sequenceDiagram
+    participant P as Player
+    participant G as iMain.cpp
+    participant S as saved.txt
+    participant L as leaderboard.txt
+    P->>G: End key
+    G->>S: write level x y health score
+    P->>G: Load Game
+    G->>S: read level x y health score
+    S-->>G: restore the run
+    P->>G: Enter after typing a name
+    G->>L: update best score, keep sorted
+    P->>G: Leaderboard
+    L-->>G: read the top five
+```
+
 ## Controls
 
 | Input | Action |
