@@ -55,7 +55,8 @@ leaderboard file. The game window is titled "Bounce Classico".
 ## Screens
 
 These are the game's own menu screens, taken from `assets/images/bg/`. They are
-the artwork the game draws, not captures of live play.
+the artwork the game draws, not captures of live play: gameplay needs a display with
+OpenGL, which was not available when this README was written.
 
 <table>
 <tr>
