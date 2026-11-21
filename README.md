@@ -90,6 +90,10 @@ down to fit. Upper and lower blocks, spikes and spiders are placed from coordina
 
 <img src="./.github/assets/readme/bounce-level-1.jpg" alt="Level 1 map: a long strip of blocks above and below the path" width="100%" />
 
+**Level 2**
+
+<img src="./.github/assets/readme/bounce-level-2.jpg" alt="Level 2 map: a long strip with a different block layout" width="100%" />
+
 ## Gameplay
 
 - The ball rolls across a scrolling level. Move right to progress; jump to get onto or under blocks.
