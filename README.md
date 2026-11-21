@@ -91,7 +91,7 @@ OpenGL, which was not available when this README was written.
 
 Each level is one long horizontal map, 10,000 to 13,000 pixels wide, that scrolls past a
 1280-pixel window. The strips below are the level maps from `assets/images/levels/`, scaled
-down to fit. Upper and lower blocks, spikes and spiders are placed from coordinate tables in `iMain.cpp`.
+down to fit. Upper and lower blocks, spikes and spiders are placed from coordinate tables in `iMain.cpp`; the strips are overview art and are not loaded by the code.
 
 **Level 1**
 
