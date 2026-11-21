@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 176 176" role="img" aria-label="Bounce Classic">
+  <rect width="176" height="176" rx="40" fill="#2b2b2b"/>
+  <path d="M52 112c-10 6-14 16-14 26M70 106c-6 8-6 18-2 28" fill="none" stroke="#9a9a9a" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <circle cx="92" cy="74" r="34" fill="#f4f4f4"/>
+  <ellipse cx="82" cy="62" rx="10" ry="7" fill="#fff" opacity=".8"/>
+  <path d="M24 146h128" stroke="#f4f4f4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 146v-12M92 146v-12M132 146v-12" stroke="#f4f4f4" stroke-width="4" stroke-linecap="round"/>
+</svg>

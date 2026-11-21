@@ -1,6 +1,28 @@
+<div align="center">
+
+<img src="./.github/assets/readme/bounce-logo.svg" alt="Bounce Classic logo" width="88" />
+
 # Bounce Classic
 
-A side-scrolling platform game written in C++. You guide a bouncing ball through three levels of blocks, spikes and patrolling spiders, collect a score as you go, and compete for a place on the leaderboard. It is built on the iGraphics library (OpenGL, GLUT and SDL2), and the game window is titled "Bounce Classico".
+**Keep the ball bouncing.**
+
+A side-scrolling platform game in C++. Roll and jump a ball through three
+levels of blocks, spikes and spiders, then put your name on the leaderboard.
+
+![C++](https://img.shields.io/badge/C%2B%2B-iGraphics-00599c?logo=cplusplus&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-GLUT%20%2B%20SDL2-5586a4?logo=opengl&logoColor=white)
+![Levels](https://img.shields.io/badge/levels-3-555555)
+![Platforms](https://img.shields.io/badge/Linux%20%7C%20Windows-supported-blue)
+
+[Screens](#screens) ·
+[Levels](#levels) ·
+[Flows](#flows) ·
+[Controls](#controls) ·
+[Build and run](#build-and-run)
+
+<img src="./.github/assets/readme/bounce-home.jpg" alt="Bounce Classic main menu with New Game, Load Game, Leaderboard, Help and Exit buttons" width="800" />
+
+</div>
 
 ## Contents
 
