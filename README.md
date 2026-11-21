@@ -24,6 +24,12 @@ levels of blocks, spikes and spiders, then put your name on the leaderboard.
 
 </div>
 
+Bounce Classic is a one-file game, `iMain.cpp`, built on the iGraphics
+library. You steer a ball to the right across a scrolling level, jumping onto
+and under blocks and dodging spikes and spiders. Health starts at 100 for each
+level, the score follows your progress, and the best scores are kept in a
+leaderboard file. The game window is titled "Bounce Classico".
+
 ## Contents
 
 - [Gameplay](#gameplay)
