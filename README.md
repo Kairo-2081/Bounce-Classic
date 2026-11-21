@@ -80,6 +80,16 @@ the artwork the game draws, not captures of live play.
 </tr>
 </table>
 
+## Levels
+
+Each level is one long horizontal map, 10,000 to 13,000 pixels wide, that scrolls past a
+1280-pixel window. The strips below are the level maps from `assets/images/levels/`, scaled
+down to fit. Upper and lower blocks, spikes and spiders are placed from coordinate tables in `iMain.cpp`.
+
+**Level 1**
+
+<img src="./.github/assets/readme/bounce-level-1.jpg" alt="Level 1 map: a long strip of blocks above and below the path" width="100%" />
+
 ## Gameplay
 
 - The ball rolls across a scrolling level. Move right to progress; jump to get onto or under blocks.
