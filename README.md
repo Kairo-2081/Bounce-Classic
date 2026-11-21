@@ -108,6 +108,29 @@ down to fit. Upper and lower blocks, spikes and spiders are placed from coordina
 - Finish level 3 to see the "Congratulations" screen with your final score.
 - After a game over or a finish, you type a name and your score goes to the leaderboard.
 
+## Flows
+
+### Screens
+
+Every screen is one value of the `pressed` variable, and `iDraw()` draws whichever
+one is active.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Loading
+    Loading --> Home: timer fires
+    Home --> Playing: New Game
+    Home --> Playing: Load Game, reads saved.txt
+    Home --> Leaderboard
+    Home --> Help
+    Leaderboard --> Home: C
+    Help --> Home: Home key
+    Playing --> Home: Home key
+    Playing --> NameEntry: health 0, or level 3 finished
+    NameEntry --> Home: Enter, saves the score
+    Playing --> [*]: End key, saves and quits
+```
+
 ## Controls
 
 | Input | Action |
