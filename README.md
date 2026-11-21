@@ -44,12 +44,18 @@ leaderboard file. The game window is titled "Bounce Classico".
 
 ## Contents
 
+- [At a glance](#at-a-glance)
+- [Screens](#screens)
+- [Levels](#levels)
 - [Gameplay](#gameplay)
+- [Flows](#flows)
 - [Controls](#controls)
 - [Menus, saving and the leaderboard](#menus-saving-and-the-leaderboard)
 - [Build and run](#build-and-run)
+- [Built with](#built-with)
 - [Project layout](#project-layout)
 - [Notes](#notes)
+- [Status](#status)
 - [Credits](#credits)
 
 ## Screens
