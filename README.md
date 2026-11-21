@@ -30,6 +30,18 @@ and under blocks and dodging spikes and spiders. Health starts at 100 for each
 level, the score follows your progress, and the best scores are kept in a
 leaderboard file. The game window is titled "Bounce Classico".
 
+## At a glance
+
+| | |
+| --- | --- |
+| **What it is** | A 2D side-scrolling platformer in C++ on iGraphics (OpenGL, GLUT, SDL2) |
+| **Levels** | 3, each with its own blocks, spikes and spiders |
+| **Health** | 100 at the start of every level; spikes and spiders cost 10 per tick |
+| **Score** | Moving right adds points, moving left takes them away, and it carries across levels |
+| **Persistence** | `saved.txt` for one saved game, `leaderboard.txt` for the top scores |
+| **Window** | Fixed 1280 x 720 |
+| **Platforms** | Linux (`runner.sh`) and Windows (`runner.bat`, MinGW) |
+
 ## Contents
 
 - [Gameplay](#gameplay)
