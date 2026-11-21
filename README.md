@@ -230,6 +230,13 @@ Both scripts take an optional source file as an argument and default to `iMain.c
 
 `build.bat` and `runner.bat` call a MinGW compiler from a folder named `MINGW` next to them. That folder is git-ignored, so it is not in this repository: add a MinGW toolchain there first. The SDL2, FreeGLUT and FreeType DLLs the game needs are already in `bin/`. An `iGraphics.cbp` Code::Blocks project is also included.
 
+## Built with
+
+- **C++** for the whole game, in a single `iMain.cpp`
+- **iGraphics** (OpenGL, GLUT) for drawing and input
+- **SDL2 and SDL2_mixer** for sound
+- **FreeType** for the fonts
+
 ## Project layout
 
 ```text
