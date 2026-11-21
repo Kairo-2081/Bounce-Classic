@@ -195,7 +195,7 @@ sequenceDiagram
 | Input | Action |
 | --- | --- |
 | Left / Right arrow | Move left / right |
-| Up arrow | Jump |
+| Up arrow | Jump (only while on the ground) |
 | Mouse | Click the main menu buttons; click the speaker icon during play to switch sound on or off |
 | Home | Return to the main menu |
 | End | Save your progress to `saved.txt` and quit |
