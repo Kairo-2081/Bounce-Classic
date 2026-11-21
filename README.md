@@ -52,6 +52,34 @@ leaderboard file. The game window is titled "Bounce Classico".
 - [Notes](#notes)
 - [Credits](#credits)
 
+## Screens
+
+These are the game's own menu screens, taken from `assets/images/bg/`. They are
+the artwork the game draws, not captures of live play.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="./.github/assets/readme/bounce-help.jpg" alt="Help screen listing the controls and the goal of the game" width="100%" />
+<p><b>Help.</b> The in-game guide to the controls and the goal.</p>
+</td>
+<td width="50%" valign="top">
+<img src="./.github/assets/readme/bounce-leaderboard.jpg" alt="Leaderboard screen with the top scores" width="100%" />
+<p><b>Leaderboard.</b> Names and scores, best first. Only the top five are shown.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="./.github/assets/readme/bounce-name-entry.jpg" alt="Name entry background shown after a game over or a finish" width="100%" />
+<p><b>Name entry.</b> The backdrop for typing your name after a game over or a finished run.</p>
+</td>
+<td width="50%" valign="top">
+<img src="./.github/assets/readme/bounce-home.jpg" alt="Main menu" width="100%" />
+<p><b>Main menu.</b> New Game, Load Game, Leaderboard, Help and Exit, clicked with the mouse.</p>
+</td>
+</tr>
+</table>
+
 ## Gameplay
 
 - The ball rolls across a scrolling level. Move right to progress; jump to get onto or under blocks.
