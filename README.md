@@ -147,6 +147,23 @@ flowchart LR
     LB --> H([Main menu])
 ```
 
+### One frame of play
+
+```mermaid
+flowchart TD
+    A[iDraw] --> B[Draw level background and blocks]
+    B --> C[Draw spikes and spiders]
+    C --> D{Touching a spike<br/>or a spider?}
+    D -- yes --> E[health -= 10]
+    D -- no --> F[Apply gravity and jump]
+    E --> G{health == 0?}
+    G -- yes --> H[Go to name entry]
+    G -- no --> F
+    F --> I{Past the level end?}
+    I -- yes --> J[Next level, or finish]
+    I -- no --> K[Next frame]
+```
+
 ## Controls
 
 | Input | Action |
