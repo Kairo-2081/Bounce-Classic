@@ -20,7 +20,9 @@ levels of blocks, spikes and spiders, then put your name on the leaderboard.
 [Controls](#controls) ·
 [Build and run](#build-and-run)
 
+<!-- liveniro:start -->
 <img src="./.github/assets/readme/bounce-home.jpg" alt="Bounce Classic main menu with New Game, Load Game, Leaderboard, Help and Exit buttons" width="800" />
+<!-- liveniro:end -->
 
 </div>
 
