@@ -427,10 +427,12 @@ void iMouseMove(int mx, int my)
 }
 
 void start_game(){
-    char hlth[11];
-    char scr[20];
-    sprintf(hlth,"Health: %d",health);
-    sprintf(scr,"Score: %d",score);
+    // Room for the longest values plus the terminating '\0'. "Health: 100" alone is 12 bytes,
+    // so the old 11-byte buffer overflowed and the score text got glued onto it.
+    char hlth[32];
+    char scr[32];
+    snprintf(hlth, sizeof hlth, "Health: %d", health);
+    snprintf(scr, sizeof scr, "Score: %d", score);
     if(health == 0){
         pressed = 6;
     }
