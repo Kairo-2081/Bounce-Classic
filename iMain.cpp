@@ -436,7 +436,7 @@ void start_game(){
     }
     if(level == 1){
         scoreIncrease=1;
-        iShowImage(0, 0, "assets/images/levels/bg.jpg");
+        iShowImage(0, 0, "assets/images/levels/Bg.jpg");
         mute_function();
         iShowText(20, 655, hlth, "assets/fonts/Game.ttf", 54);
         iShowText(890, 655, scr, "assets/fonts/Game.ttf", 54);
@@ -458,7 +458,7 @@ void start_game(){
     }
     if(level == 2){
         scoreIncrease=1;
-        iShowImage(0, 0, "assets/images/levels/bg.jpg");
+        iShowImage(0, 0, "assets/images/levels/Bg.jpg");
         mute_function();
         iShowText(20, 655, hlth, "assets/fonts/Game.ttf", 54);
         iShowText(890, 655, scr, "assets/fonts/Game.ttf", 54);
@@ -483,7 +483,7 @@ void start_game(){
     }
     if(level == 3){
         scoreIncrease=1;
-        iShowImage(0, 0, "assets/images/levels/bg.jpg");
+        iShowImage(0, 0, "assets/images/levels/Bg.jpg");
         mute_function();
         iShowText(20, 655, hlth, "assets/fonts/Game.ttf", 54);
         iShowText(890, 655, scr, "assets/fonts/Game.ttf", 54);
@@ -708,7 +708,7 @@ void Finished(int y1) {
 
 void show_score(bool f){
     if(f){
-        iShowImage(0,0,"assets/images/levels/bg.jpg");
+        iShowImage(0,0,"assets/images/levels/Bg.jpg");
         iShowText(118,338,"Congratulations" , "assets/fonts/congo.ttf",179);
         char scored[100];
         int q = score ;
