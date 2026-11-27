@@ -21,9 +21,41 @@ levels of blocks, spikes and spiders, then put your name on the leaderboard.
 [Build and run](#build-and-run)
 
 <!-- liveniro:start -->
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-01-main-menu.gif" alt="1. Main menu, recorded by LiveNiro" width="100%"><br>
+<b>1 · Main menu</b>
+</td>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-02-leaderboard.gif" alt="2. Leaderboard, recorded by LiveNiro" width="100%"><br>
+<b>2 · Leaderboard</b>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-03-help.gif" alt="3. Help, recorded by LiveNiro" width="100%"><br>
+<b>3 · Help</b>
+</td>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-04-level-1.gif" alt="4. Level 1, recorded by LiveNiro" width="100%"><br>
+<b>4 · Level 1</b>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-05-level-2.gif" alt="5. Level 2, recorded by LiveNiro" width="100%"><br>
+<b>5 · Level 2</b>
+</td>
+<td width="50%" valign="top" align="center">
+<img src=".liveniro/demo-06-level-3.gif" alt="6. Level 3, recorded by LiveNiro" width="100%"><br>
+<b>6 · Level 3</b>
+</td>
+</tr>
+</table>
 <p align="center">
-  <a href=".liveniro/demo.mp4"><img src=".liveniro/demo.gif" alt="Live demo of this project, recorded by LiveNiro" width="800"></a>
-  <br><sub>Recorded automatically by <a href="https://github.com/Kairo-2081/LiveNiro">LiveNiro</a> on every push · <a href=".liveniro/demo.mp4">watch the MP4</a></sub>
+  <a href=".liveniro/demo-tour.mp4"><b>▶ Watch the full walkthrough</b></a> (MP4 · 0:26 · chapters)
+  <br><sub>Recorded automatically by <a href="https://github.com/Kairo-2081/LiveNiro">LiveNiro</a> on every push</sub>
 </p>
 <!-- liveniro:end -->
 
