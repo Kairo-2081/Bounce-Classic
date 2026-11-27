@@ -1,5 +1,5 @@
-# Builds the game on Linux, plays it on a virtual screen and puts a GIF of the
-# run at the top of the README. https://github.com/Kairo-2081/LiveNiro
+# Builds the game on Linux, tours every screen and level on a virtual screen, and
+# puts a gallery of the scenes and a full walkthrough video at the top of the README. https://github.com/Kairo-2081/LiveNiro
 name: LiveNiro demo
 
 on:
@@ -18,16 +18,45 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Kairo-2081/LiveNiro@v0
         with:
-          duration: "14"
-          actions: |
-            wait 1.5
-            key Home
-            wait 0.5
-            click 1000 80     # New Game
-            move 1278 718     # park the pointer in the corner, off the score
-            wait 1.5
+          # A full tour: every menu screen and all three levels. Levels 2 and 3 are
+          # reached by writing saved.txt and using Load Game after a restart.
+          scenes: |
+            ## Main menu
+            wait 2.5
+
+            ## Leaderboard
+            click 1000 338
+            wait 3
+            key c
+
+            ## Help
+            click 1000 465
+            wait 3
+
+            ## Level 1
+            restart
+            click 1000 80
+            move 1278 718
             hold Right 2.5
-            key Up            # jump
+            key Up
             hold Right 2
             key Up
-            hold Right 3
+            hold Right 2
+
+            ## Level 2
+            sh printf '2 0 65 100 100' > saved.txt
+            restart
+            click 1000 213
+            move 1278 718
+            hold Right 2
+            key Up
+            hold Right 2.5
+
+            ## Level 3
+            sh printf '3 0 65 100 200' > saved.txt
+            restart
+            click 1000 213
+            move 1278 718
+            hold Right 2
+            key Up
+            hold Right 2.5
