@@ -1,0 +1,32 @@
+# Builds the game on Linux, plays it on a virtual screen and puts a GIF of the
+# run at the top of the README. https://github.com/Kairo-2081/LiveNiro
+name: LiveNiro demo
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: [".liveniro/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Kairo-2081/LiveNiro@v0
+        with:
+          duration: "14"
+          actions: |
+            wait 1.5
+            key Home
+            wait 0.5
+            click 1000 80     # New Game
+            wait 1.5
+            hold Right 2.5
+            key Up            # jump
+            hold Right 2
+            key Up
+            hold Right 3
