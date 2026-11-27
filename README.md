@@ -21,7 +21,10 @@ levels of blocks, spikes and spiders, then put your name on the leaderboard.
 [Build and run](#build-and-run)
 
 <!-- liveniro:start -->
-<img src="./.github/assets/readme/bounce-home.jpg" alt="Bounce Classic main menu with New Game, Load Game, Leaderboard, Help and Exit buttons" width="800" />
+<p align="center">
+  <a href=".liveniro/demo.mp4"><img src=".liveniro/demo.gif" alt="Live demo of this project, recorded by LiveNiro" width="800"></a>
+  <br><sub>Recorded automatically by <a href="https://github.com/Kairo-2081/LiveNiro">LiveNiro</a> on every push · <a href=".liveniro/demo.mp4">watch the MP4</a></sub>
+</p>
 <!-- liveniro:end -->
 
 </div>
