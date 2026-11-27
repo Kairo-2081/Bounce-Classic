@@ -861,10 +861,10 @@ void show_leaderboard_on_screen() {
         sscanf(leaderboard_lines[i] , "%s %d" , tempo , &scoren);
         char scre[100];
         sprintf(scre,"%d",scoren);
-        iShowText(265,355 - i*65 , tempo ,"assets/fonts/game.ttf" , 55);
-        iShowText(870,355 - i*65 , scre,"assets/fonts/game.ttf" , 55);
+        iShowText(265,355 - i*65 , tempo ,"assets/fonts/Game.ttf" , 55);
+        iShowText(870,355 - i*65 , scre,"assets/fonts/Game.ttf" , 55);
     }
-    iShowText(238, 20, "Press  'c'  to  return  to  menu","assets/fonts/game.ttf" , 55);
+    iShowText(238, 20, "Press  'c'  to  return  to  menu","assets/fonts/Game.ttf" , 55);
 }
 
 void leaderboard() {
