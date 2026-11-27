@@ -24,6 +24,7 @@ jobs:
             key Home
             wait 0.5
             click 1000 80     # New Game
+            move 1278 718     # park the pointer in the corner, off the score
             wait 1.5
             hold Right 2.5
             key Up            # jump
